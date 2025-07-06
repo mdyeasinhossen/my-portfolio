@@ -4,46 +4,69 @@
 }
 
 #body{
-    background-image: url(images/image\ copy\ 7.png);
+    background-image: url(images/im5.jpg);
     background-size: cover;
 }
 #image1{
-    border: 20px,solid, #a7f43a;
+    border: 1px solid #0e0810;
     border-radius: 50%;
     margin: 90px;
     padding: 10px;
-    
-    
-
+    box-shadow: 10px 10px 10px #4b0a61;
 }
-#aboutMe{
-    font-size: 30px;
-    color: rgb(12, 12, 170);
-
-}
-.div2{
-    font-size: 30px;
+.imBorder{
     border: 2px solid #0e0810;
     border-radius: 10%;
     padding: 10px;
     margin: 100px;
     height: 300px;
+    width: 300px;
+    background-image: url(images/im11.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px #4b0a61;
+}
+.imContainer{
+    border: 5px solid #0e0810;
+    border-radius: 10%;
+    height: 400px;
+    width: 400px;
+    background-image: url(images/im9.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px #4b0a61;
+    /* display: flex; */
+}
+#aboutMe{
+    font-size: 30px;
+    color: rgb(255, 243, 5);
+
+}
+.about{
+    font-size: 30px;
+    border: 2px solid #0e0810;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 100px 100px 100px 200px;
+    height: 300px;
     width: 500px;
-    background-color: #9a4eb4;
+    background-image: url(images/im7.jpg);
+    background-size: cover;
+    color: #ffffff;
+    box-shadow: 10px 10px 10px #4b0a61;
 
 
 }
 .container1{
-    /* margin: 50px; */
     padding: 20px;
-    /* border: 2px solid black; */
-    border-radius: 1%;
+    border-radius: 5%;
+    height: 600px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* background-image: url(images/image.png); */
+    background-image: url(images/im1.jpg);
     background-size: cover;
 }
 #education{
+    color: #ffffff;
     font-size: 25px;
     border: 2px solid #0e0810;
     border-radius: 10%;
@@ -51,12 +74,17 @@
     margin: 100px 10px 100px 100px;
     height: 500px;
     width: 500px;
-    background-color: #81f2e7;
     box-shadow: 10px 10px 10px #4b0a61;
+    background-image: url(images/im4.jpg);
+    background-size: cover;
 
+}
+#eduTitle{
+    color: aqua;
 }
 
 #achievement{
+    color: #3cff00;
     font-size: 25px;
     border: 2px solid #0e0810;
     border-radius: 10%;
@@ -64,13 +92,17 @@
     margin: 100px 10px 100px 100px;
     height: 500px;
     width: 500px;
-    background-color: #4bd665;
     box-shadow: 10px 10px 10px #4b0a61;
+    background-image: url(images/im7.jpg);
+    background-size: cover;
  
 
 }
-
+#achTitle{
+    color: aqua;
+}
 #subject{
+    color: hsl(69, 100%, 51%);
     font-size: 30px;
     border: 2px solid #0e0810;
     border-radius: 10%;
@@ -78,17 +110,21 @@
     margin: 100px;
     height: 500px;
     width: 500px;
-    background-color: #ecc258;
-    justify-content: contain;
+    background-image: url(images/im5.jpg);
+    background-size: cover;
     box-shadow: 10px 10px 10px #4b0a61;
+}
+#subTitle{
+    color: aqua;
 }
 
 .container2{
+    margin-top: 50px;
     padding: 20px;
     /* border: 2px solid black; */
     border-radius: 1%;
     display: flex;
     justify-content: inline;
-    background-size: cover;
-    /* background-image: url(images/image\ copy\ 6.png); */
+    background-size: contain;
+    /* background-image: url(images/im2.jpg); */
 }
