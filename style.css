@@ -14,27 +14,9 @@
     padding: 10px;
     box-shadow: 10px 10px 10px #4b0a61;
 }
-.imBorder{
-    border: 2px solid #0e0810;
-    border-radius: 10%;
-    padding: 10px;
-    margin: 100px;
-    height: 300px;
-    width: 300px;
-    background-image: url(images/im11.jpg);
-    background-size: cover;
-    box-shadow: 10px 10px 10px #4b0a61;
-}
-.imContainer{
-    border: 5px solid #0e0810;
-    border-radius: 10%;
-    height: 400px;
-    width: 400px;
-    background-image: url(images/im9.jpg);
-    background-size: cover;
-    box-shadow: 10px 10px 10px #4b0a61;
-    /* display: flex; */
-}
+
+
+
 #aboutMe{
     font-size: 30px;
     color: rgb(255, 243, 5);
@@ -45,9 +27,9 @@
     border: 2px solid #0e0810;
     border-radius: 10%;
     padding: 10px;
-    margin: 100px 100px 100px 200px;
+    margin: 100px 10px 100px 100px;
     height: 300px;
-    width: 500px;
+    width: 600px;
     background-image: url(images/im7.jpg);
     background-size: cover;
     color: #ffffff;
@@ -62,7 +44,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(images/im1.jpg);
+    background-image: url(images/im7.jpg);
     background-size: cover;
 }
 #education{
@@ -127,4 +109,54 @@
     justify-content: inline;
     background-size: contain;
     /* background-image: url(images/im2.jpg); */
+}
+
+.contact{
+    color: hsl(69, 100%, 51%);
+    font-size: 30px;
+    border: 2px solid #0e0810;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 80px;
+    height: 500px;
+    width: 500px;
+    background-image: url(images/im5.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px #4b0a61;
+}
+.support{
+    color: hsl(69, 100%, 51%);
+    font-size: 30px;
+    border: 2px solid #0e0810;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 80px;
+    height: 500px;
+    width: 500px;
+    background-image: url(images/im5.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px #4b0a61;
+}
+.complain{
+    color: hsl(69, 100%, 51%);
+    font-size: 30px;
+    border: 2px solid #0e0810;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 80px;
+    height: 500px;
+    width: 500px;
+    background-image: url(images/im5.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px #4b0a61;
+}
+.container3{
+    margin-top: 50px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 1%;
+    display: flex;
+    justify-content: inline;
+    background-size: contain;
+   background-color: #afaaaa;
 }
